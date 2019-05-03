@@ -21,7 +21,7 @@ public class Config {
     try {
         String url = "jdbc:mysql://localhost:3306/db_latihan";
         String username = "root";
-        String password = "dessille";
+        String password = "xxxxxx";
         
         DriverManager.registerDriver(new com.mysql.jdbc.Driver());
         koneksi = DriverManager.getConnection(url,username,password);
